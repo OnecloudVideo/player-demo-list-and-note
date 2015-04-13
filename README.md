@@ -41,9 +41,9 @@ player-demo-list-and-note
 	|
 	|--images
 	|	|
-	|	|--css--default.css		  	示例页面的默认样式 
+	|	|--css--default.css		        示例页面的默认样式 
 	|	|
-	|	|--*.png/*.jpg				示例页面所需图标
+	|	|--*.png/*.jpg			        示例页面所需图标
 	|
 	|--js
 	|	|
