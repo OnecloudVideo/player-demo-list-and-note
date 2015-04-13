@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0 auto; padding:0; width:1200px;}
+p{margin:0; padding:0;}
+.title{font-family:"微软雅黑"; font-size:18px; line-height:40px; margin-top:10px;}
+.line{height:1px; width:100%; border-bottom:dotted #CCCCCC 1px; margin:0px 0px 10px 0px;}
+.play_line{width:100%; border-bottom:solid #535353 1px; line-height:1px; height:1px; margin:0px 0px 10px 0px;}
+.fl{float:left;}
+.fr{float:right;}
+.ma10{margin:10px 10px 10px 10px;}
+.cen_box{margin:0 20px;}
+.con_box{width:1160px;}
+.video_box{width:880px; height:525px; display:block; float:left;}
+.info_box{background:#2b2b2b; height:525px; border:none; display:inline-block;}
+.info_box_tit{width:280px; height:40px; border-bottom:2px solid #535353; display:inline-block;}
+.info_box_tab{width:140px; height:40px;}
+.info_box_tab a:hover{color:#F90;}
+.info_box_tab.now{ border-bottom:2px solid #F90;}
+.playlist_box{font-size:12px; padding:10px 0px 0px 10px;}
+.video_small{width:120px; height:68px; background:#404040; display:inline-block; margin-right:10px;}
+.playlist_info{line-height:22px;}
+.playlist_info dl dt a{color:#ddd; text-decoration:none;}
+.playlist_info dl dt a:hover{color:#F90;}
+.playlist_info dl dd{color:#a0a0a0;}
+.i_playlist,.i_note{display:inline-block; color:#FFF; font-size:14px; text-decoration:none; margin:13px 0px 13px 30px; padding:0px 0 8px 22px; line-height:12px;}
+.i_playlist{background:url(../playlist.png) no-repeat;}
+.i_note{background:url(../note.png) no-repeat;}
+.i_play{background:url(../play.png) no-repeat; display:inline-block; color:#a0a0a0; font-size:12px; text-decoration:none; padding:0px 0px 0px 22px; line-height:12px;}
+.i_play:hover{color:#F90;}
+.i_delete{background:url(../delete.png) no-repeat; width:13px; height:15px; display:block;}
+.note_input_box{margin:10px 0 10px 10px;}
+.note_save_box{margin:10px; height:26px;}
+.note_input{width:248px; height:78px; background:#404040; border:#535353 solid 1px; color:#FFF; padding:5px;}
+.note_info{width:260px; color:#ddd; font-size:12px; line-height:24px;}
+.btn{width:80px; height:26px; line-height:26px; background:url(../btn_bg.png) no-repeat; display:block; color:#FFF; font-size:12px; text-align:center; text-decoration:none;}
+.btn:hover{color:#F90;}
+.note_overflow{height:320px; overflow-x:hidden; overflow-y:auto;}
+.playlist_overflow{height:470px; overflow-x:hidden; overflow-y:auto;}
+.overflow_box{-o-text-overflow: ellipsis; text-overflow: ellipsis; overflow:hidden; white-space:nowrap; width:120px; color:#ddd;}
