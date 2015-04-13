@@ -5,14 +5,17 @@ API 对视频进行控制，例如播放、暂停、seek、获取片长、获取
 
 使用说明
 -------------
->1.Demo 中的视频存放在亦云视频（http://video.pispower.com），如果你需要更换演示视频，请
+>1.Demo 中的视频存放在亦云视频（http://video.pispower.com），
+如果你需要更换演示视频，请
 将你的视频上传到亦云视频，成功转码之后将flash代码拷贝到playlistnote.html页面。（具体方法请
 参考playlistnote.html页面的注释）
 
 >2.将demo放于一个静态服务器，启动静态服务器。(注：必须，否则你的视频可能无法正常播放）
 
 >3.用浏览器访问demo应用页面:playlistnote.html，如果你的服务器地址是 
-http://www.abc.com，请输入 http://www.abc.com/playlistnote.html
+http://www.abc.com，
+请输入 
+http://www.abc.com/playlistnote.html
 
 功能说明
 -------------
