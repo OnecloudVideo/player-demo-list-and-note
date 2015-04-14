@@ -60,12 +60,12 @@ $(function() {
 		// 隐藏正在播放的视频
 		var currentVideoId = getCurrentVideoId();
 		$("#" + currentVideoId).hide();
-		$("dt[videoId=" + currentVideoId + "]").removeClass("now");
+		$("dt[videoId=" + currentVideoId + "]").find("a").removeClass("now");
 
 		// 显示当前播放的视频
 		var videoId = $(this).attr("videoId");
 		$("#" + videoId).show();
-		$("dt[videoId=" + videoId + "]").addClass("now");
+		$("dt[videoId=" + videoId + "]").find("a").addClass("now");
 
 		// 记录当前播放视频的id
 		$("#currentVideo").val(videoId);
