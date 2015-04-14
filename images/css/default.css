@@ -21,6 +21,7 @@ p{margin:0; padding:0;}
 .playlist_info{line-height:22px;}
 .playlist_info dl dt a{color:#ddd; text-decoration:none;}
 .playlist_info dl dt a:hover{color:#F90;}
+.playlist_info dl dt a.now{color:#F90;}
 .playlist_info dl dd{color:#a0a0a0;}
 .i_playlist,.i_note{display:inline-block; color:#FFF; font-size:14px; text-decoration:none; margin:13px 0px 13px 30px; padding:0px 0 8px 22px; line-height:12px;}
 .i_playlist{background:url(../playlist.png) no-repeat;}

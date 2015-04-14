@@ -60,10 +60,12 @@ $(function() {
 		// 隐藏正在播放的视频
 		var currentVideoId = getCurrentVideoId();
 		$("#" + currentVideoId).hide();
+		$("dt[videoId=" + currentVideoId + "]").removeClass("now");
 
 		// 显示当前播放的视频
 		var videoId = $(this).attr("videoId");
 		$("#" + videoId).show();
+		$("dt[videoId=" + videoId + "]").addClass("now");
 
 		// 记录当前播放视频的id
 		$("#currentVideo").val(videoId);
@@ -93,15 +95,6 @@ $(function() {
 			}
 		}, 100);
 	}
-
-	//鼠标移到视频名称时显示视频名称全名
-	$(".overflow_box").hover(function() {
-		var node = $(this).find("a");
-		var name = node.html();
-		node.attr("title", name);
-	}, function() {
-		
-	});
 	
 	// 切换到播放列表
 	$("#playListTab").click(function() {
