@@ -94,6 +94,15 @@ $(function() {
 		}, 100);
 	}
 
+	//鼠标移到视频名称时显示视频名称全名
+	$(".overflow_box").hover(function() {
+		var node = $(this).find("a");
+		var name = node.html();
+		node.attr("title", name);
+	}, function() {
+		
+	});
+	
 	// 切换到播放列表
 	$("#playListTab").click(function() {
 
