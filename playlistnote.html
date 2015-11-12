@@ -15,64 +15,81 @@
 			<p class="title">亦云视频【播放列表】&amp;【课堂笔记】DEMO</p>
 			<p class="line"></p>
 		</div>
-		<input id="currentVideo" type="hidden" value="vocchio_container_r1mnqdi63b3kp9">
+		<input id="currentVideo" type="hidden"
+			value="vocchio_container_tqxpr8i8b81nut">
 		<div class="con_box">
 			<div class="video_box">
 				<!-- 这里是视频代码，从亦云视频中：管理视频－视频列表－视频代码（Flash代码）中复制取得 -->
-				<div style="position: relative; width: 880px; height: 525px; background: #000; color: #FFF;"
-					playerId='vocchio_player_tqxpr8i8b81nut' id='vocchio_container_tqxpr8i8b81nut'>
-					<script type='text/javascript' 
+				<div
+					style="position: relative; width: 880px; height: 525px; background: #000; color: #FFF;"
+					playerId='vocchio_player_tqxpr8i8b81nut'
+					id='vocchio_container_tqxpr8i8b81nut'>
+					<script type='text/javascript'
 						src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=tqxpr8i8b81nut'></script>
 				</div>
 
-				<div style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
-					playerId='vocchio_player_i1fy9li8b7ndi0' id='vocchio_container_i1fy9li8b7ndi0'>
-					<script type='text/javascript' 
+				<div
+					style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
+					playerId='vocchio_player_i1fy9li8b7ndi0'
+					id='vocchio_container_i1fy9li8b7ndi0'>
+					<script type='text/javascript'
 						src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=i1fy9li8b7ndi0'></script>
 				</div>
 
-				<div style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
-					playerId='vocchio_player_fyctcxi8b06t69' id='vocchio_container_fyctcxi8b06t69'>
-					<script type='text/javascript' 
+				<div
+					style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
+					playerId='vocchio_player_fyctcxi8b06t69'
+					id='vocchio_container_fyctcxi8b06t69'>
+					<script type='text/javascript'
 						src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=fyctcxi8b06t69'></script>
 				</div>
 
-				<div style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
-					playerId='vocchio_player_g7kp6mi8b2qcg2' id='vocchio_container_g7kp6mi8b2qcg2'>
-					<script type='text/javascript' 
+				<div
+					style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
+					playerId='vocchio_player_g7kp6mi8b2qcg2'
+					id='vocchio_container_g7kp6mi8b2qcg2'>
+					<script type='text/javascript'
 						src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=g7kp6mi8b2qcg2'></script>
 				</div>
 
-				<div style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
-					playerId='vocchio_player_wl0o9gi8b2r6od' id='vocchio_container_wl0o9gi8b2r6od'>
+				<div
+					style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
+					playerId='vocchio_player_wl0o9gi8b2r6od'
+					id='vocchio_container_wl0o9gi8b2r6od'>
 					<script type='text/javascript'
-						 src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=wl0o9gi8b2r6od'></script>
+						src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=wl0o9gi8b2r6od'></script>
 				</div>
 
-				<div style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
-					playerId='vocchio_player_cjq2n0i8b08bcx' id='vocchio_container_cjq2n0i8b08bcx'>
-					<script type='text/javascript' 
+				<div
+					style="position: relative; width: 880px; height: 525px; display: none; background: #000; color: #FFF;"
+					playerId='vocchio_player_cjq2n0i8b08bcx'
+					id='vocchio_container_cjq2n0i8b08bcx'>
+					<script type='text/javascript'
 						src='http://video.pispower.com/flashplayer/script.op?transcodeVideoId=cjq2n0i8b08bcx'></script>
 				</div>
-				
-			</div> <!-- /.video_box -->
+
+			</div>
+			<!-- /.video_box -->
 			<div class="info_box">
 				<div class="info_box_tit">
-					<span class="info_box_tab now fl"><a id="playListTab" href="#" class="i_playlist">播放列表</a></span> <span
-						class="info_box_tab fl"><a id="noteListTab" href="#" class="i_note">课堂笔记</a></span>
+					<span class="info_box_tab now fl"><a id="playListTab"
+						href="#" class="i_playlist">播放列表</a></span> <span class="info_box_tab fl"><a
+						id="noteListTab" href="#" class="i_note">课堂笔记</a></span>
 				</div>
 
 				<div id="playList" class="playlist_overflow">
 					<!-- 这里是视频信息(包含封面、名称、播放次数)，需与以上视频一一对应，其中img标签中的src属性值为视频封面，从亦云视频:管理视频－视频列表－视频封面 复制取得120X68的封面 -->
 					<div class="playlist_box">
 						<div class="fl">
-							<a href="#" class="video_small fl" videoId="vocchio_container_tqxpr8i8b81nut"> <img style="width: 120px; height: 68px;"
-								src="http://video.pispower.com/assets/pispower_cloudvideo/video/transcoded/ba2e6ff1d9c6fc5235703ea0d52e10c3/94326d51a2b257c1c1e83fda30c04ca6/4/poster.png" />
+							<a href="#" class="video_small fl"
+								videoId="vocchio_container_tqxpr8i8b81nut"> <img
+								src="http://video.pispower.com/assets/pispower_cloudvideo/poster/629/poster_120x68.png" />
 							</a>
 						</div>
 						<div class="playlist_info">
 							<dl>
-								<dt id="loadPlay" class="overflow_box" videoId="vocchio_container_tqxpr8i8b81nut">
+								<dt id="loadPlay" class="overflow_box"
+									videoId="vocchio_container_tqxpr8i8b81nut">
 									<a href="#" title="灰姑娘预告">灰姑娘预告</a>
 								</dt>
 								<dd>
@@ -84,12 +101,15 @@
 
 					<div class="playlist_box">
 						<div class="fl">
-							<a href="#" class="video_small fl" videoId="vocchio_container_i1fy9li8b7ndi0"><img style="width: 120px; height: 68px;"
-								src="http://video.pispower.com/assets/pispower_cloudvideo/video/transcoded/ba2e6ff1d9c6fc5235703ea0d52e10c3/baaa2fdfabc089918f6113f9515c837b/4/poster.png"/> </a>
+							<a href="#" class="video_small fl"
+								videoId="vocchio_container_i1fy9li8b7ndi0"><img
+								src="http://video.pispower.com/assets/pispower_cloudvideo/poster/628/poster_120x68.png" />
+							</a>
 						</div>
 						<div class="playlist_info">
 							<dl>
-								<dt class="overflow_box" videoId="vocchio_container_i1fy9li8b7ndi0">
+								<dt class="overflow_box"
+									videoId="vocchio_container_i1fy9li8b7ndi0">
 									<a href="#" title="动物世界">动物世界</a>
 								</dt>
 								<dd>
@@ -100,12 +120,15 @@
 					</div>
 					<div class="playlist_box">
 						<div class="fl">
-							<a href="#" class="video_small fl" videoId="vocchio_container_fyctcxi8b06t69"><img style="width: 120px; height: 68px;"
-								src="http://video.pispower.com/assets/pispower_cloudvideo/video/transcoded/ba2e6ff1d9c6fc5235703ea0d52e10c3/c98e50ffc89dcf096badb24d04e6f9e5/4/poster.png" /> </a>
+							<a href="#" class="video_small fl"
+								videoId="vocchio_container_fyctcxi8b06t69"><img
+								src="http://video.pispower.com/assets/pispower_cloudvideo/poster/625/poster_120x68.png" />
+							</a>
 						</div>
 						<div class="playlist_info">
 							<dl>
-								<dt class="overflow_box" videoId="vocchio_container_fyctcxi8b06t69">
+								<dt class="overflow_box"
+									videoId="vocchio_container_fyctcxi8b06t69">
 									<a href="#" title="我们结婚吧预告">我们结婚吧预告</a>
 								</dt>
 								<dd>
@@ -116,12 +139,14 @@
 					</div>
 					<div class="playlist_box">
 						<div class="fl">
-							<a href="#" class="video_small fl" videoId="vocchio_container_g7kp6mi8b2qcg2"><img style="width: 120px; height: 68px;"
-								src="http://video.pispower.com/assets/pispower_cloudvideo/video/transcoded/ba2e6ff1d9c6fc5235703ea0d52e10c3/88125241a68e0e6fc75738d4dfe43551/4/poster.png" /></a>
+							<a href="#" class="video_small fl"
+								videoId="vocchio_container_g7kp6mi8b2qcg2"><img
+								src="http://video.pispower.com/assets/pispower_cloudvideo/poster/627/poster_120x68.png" /></a>
 						</div>
 						<div class="playlist_info">
 							<dl>
-								<dt class="overflow_box" videoId="vocchio_container_g7kp6mi8b2qcg2">
+								<dt class="overflow_box"
+									videoId="vocchio_container_g7kp6mi8b2qcg2">
 									<a href="#" title="港囧预告">港囧预告</a>
 								</dt>
 								<dd>
@@ -132,12 +157,14 @@
 					</div>
 					<div class="playlist_box">
 						<div class="fl">
-							<a href="#" class="video_small fl" videoId="vocchio_container_wl0o9gi8b2r6od"><img style="width: 120px; height: 68px;"
-								src="http://video.pispower.com/assets/pispower_cloudvideo/video/transcoded/ba2e6ff1d9c6fc5235703ea0d52e10c3/2c3431a186e9e002d0638393f2c64530/4/poster.png" /></a>
+							<a href="#" class="video_small fl"
+								videoId="vocchio_container_wl0o9gi8b2r6od"><img
+								src="http://video.pispower.com/assets/pispower_cloudvideo/poster/626/poster_120x68.png" /></a>
 						</div>
 						<div class="playlist_info">
 							<dl>
-								<dt class="overflow_box" videoId="vocchio_container_wl0o9gi8b2r6od">
+								<dt class="overflow_box"
+									videoId="vocchio_container_wl0o9gi8b2r6od">
 									<a href="#" title="谍中谍预告">谍中谍预告</a>
 								</dt>
 								<dd>
@@ -148,12 +175,14 @@
 					</div>
 					<div class="playlist_box">
 						<div class="fl">
-							<a href="#" class="video_small fl" videoId="vocchio_container_cjq2n0i8b08bcx"><img style="width: 120px; height: 68px;"
-								src="http://video.pispower.com/assets/pispower_cloudvideo/video/transcoded/ba2e6ff1d9c6fc5235703ea0d52e10c3/177eb143f735454b7dd74ad903125b08/4/poster.png" /></a>
+							<a href="#" class="video_small fl"
+								videoId="vocchio_container_cjq2n0i8b08bcx"><img
+								src="http://video.pispower.com/assets/pispower_cloudvideo/poster/624/poster_120x68.png" /></a>
 						</div>
 						<div class="playlist_info">
 							<dl>
-								<dt class="overflow_box" videoId="vocchio_container_cjq2n0i8b08bcx">
+								<dt class="overflow_box"
+									videoId="vocchio_container_cjq2n0i8b08bcx">
 									<a href="#" title="小黄人预告">小黄人预告</a>
 								</dt>
 								<dd>
@@ -162,14 +191,17 @@
 							</dl>
 						</div>
 					</div>
-				</div> <!-- /#playList -->
+				</div>
+				<!-- /#playList -->
 
 				<div id="noteList" style="display: none;">
 					<div class="note_input_box">
-						<textarea id="noteInput" name="" cols="" rows="" maxlength="100" class="note_input"></textarea>
+						<textarea id="noteInput" name="" cols="" rows="" maxlength="100"
+							class="note_input"></textarea>
 					</div>
 					<div class="note_save_box">
-						<a id="noteTime" href="#" class="i_play">0</a> <a id="submitNoteBtn" href="javascript:;" class="btn fr">保存笔记</a>
+						<a id="noteTime" href="#" class="i_play">0</a> <a
+							id="submitNoteBtn" href="javascript:;" class="btn fr">保存笔记</a>
 					</div>
 
 					<div class="note_overflow">
@@ -177,7 +209,9 @@
 
 					</div>
 				</div>
-			</div> <!-- /.info-box -->
-		</div><!-- /.con-box -->
+			</div>
+			<!-- /.info-box -->
+		</div>
+		<!-- /.con-box -->
 </body>
 </html>
